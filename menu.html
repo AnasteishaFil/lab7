@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Top</title>
+	<style>
+		body {
+			margin: 0;
+			line-height: 1.6;
+			background: rgba(0, 0, 0, 0.8);
+			overflow: hidden;
+		}
+		h1, h2, h3, h4, h5, h6 {margin: 0}
+		.title{
+			width: 100%;
+			height: 7vh;
+			margin: 30% auto 0 auto;
+			color: #fff4c4;
+			font-size: 25px;
+		}
+		.title img{
+			width: 6vh;
+			height: 6vh;
+			border-radius: 50%;
+		}
+		ul{
+			width: 70%;
+			margin: 0 auto;
+		}
+		li{
+			color: #fff4c4;
+			font-size: 21px;
+			margin: 3vh 0;
+		}
+		.pzzhw{
+			width: 40vh;
+			height: 40vh;
+			position: absolute;
+			bottom: 0;
+			left: -60vw;
+			border-radius: 50%;
+			animation: hopop 6s infinite linear;
+		}
+		.pzzbbq{
+			width: 30vh;
+			height: 30vh;
+			position: absolute;
+			bottom: 0;
+			left: -60vw;
+			border-radius: 50%;
+			animation: hopop 7s infinite linear;
+			animation-delay: 3s;
+		}
+		.pzzpst{
+			width: 24vh;
+			height: 24vh;
+			position: absolute;
+			bottom: 0;
+			left: -60vw;
+			border-radius: 50%;
+			animation: hopop 5s infinite linear;
+			animation-delay: 2s;
+		}
+		@keyframes hopop{
+			0%   {transform: rotate(0deg);
+					left: -60vw;}
+  			100% {transform: rotate(360deg);
+					left: 160vw;}
+		}
+	</style>
+</head>
+<body>
+	<div class="title">
+		<img src="images/mini.png" alt="">
+		Мои любимейшие пиццули
+		<img src="images/mini.png" alt="">
+	</div>
+	<ul>
+		<li><a href="content.html"></a>Гавайская пицца</li>
+		<li><a href="content1.html"></a>Цыплёнок барбекю</li>
+		<li><a href="content2.html"></a>Песто</li>
+	</ul>
+	<img class="pzzhw" src="images/hawaii.png" alt="">
+	<img class="pzzbbq" src="images/barbeku.png" alt="">
+	<img class="pzzpst" src="images/pesto.png" alt="">
+</body>
+</html>

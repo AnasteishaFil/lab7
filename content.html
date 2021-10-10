@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Top</title>
+	<style>
+		body {
+			margin: 0;
+			line-height: 1.6;
+			background: #7a0035;
+		}
+		h1, h2, h3, h4, h5, h6 {margin: 0}
+		.pizzas{
+			width: 96%;
+			margin: 0 auto;
+			display: flex;
+			justify-content: space-between;
+		}
+		.pzz{
+			width: 30%;
+		}
+		.icon{
+			width: 15vh;
+			height: 15vh;
+			display: block;
+			margin: 0 auto;
+			animation: hop 5s infinite linear;
+		}
+		h2{
+			font-size: 30px;
+			color: #fff4c4;
+			text-align: center;
+			margin: 3vh 0 0 0;
+		}
+		.text{
+			font-size: 25px;
+			color: #fff4c4;
+			text-align: justify;
+		}
+		.krtnk{
+			width: 30%;
+			height: auto;
+			position: absolute;
+			bottom: 3vh;
+		}
+		@keyframes hop{
+			0%   { transform: rotate(0deg); }
+  			100% { transform: rotate(360deg); }
+		}
+	</style>
+</head>
+<body>
+	<div class="pizzas">
+		<div class="pzz">
+			<h2>Гавайская пицца</h2>
+			<img class="icon" src="images/hawaii.png" alt="">
+			<div class="text">Ингридиенты: ветчина, ананасы, моцарелла, томатный соус</div>
+			<img class="krtnk" src="images/hawaii2.jpg" alt="">
+		</div>
+		<div class="pzz">
+			<h2>Цыплёнок барбекю</h2>
+			<img class="icon" src="images/barbeku.png" alt="">
+			<div class="text">Ингридиенты: соус барбекю, томатный соус, цыплёнок, красный лук, моцарелла, бекон</div>
+			<img class="krtnk" src="images/barbeku2.jpg" alt="">
+		</div>
+		<div class="pzz">
+			<h2>Песто</h2>
+			<img class="icon" src="images/pesto.png" alt="">
+			<div class="text">Ингридиенты: соус песто, соус альфредо, цыплёнок, кубики брынзы, томаты, моцарелла</div>
+			<img class="krtnk" src="images/pesto2.jpg" alt="">
+		</div>
+	</div>
+</body>
+</html>
